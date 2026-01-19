@@ -7,43 +7,45 @@ module.exports = withModuleFederationPlugin({
     mfe1: 'http://localhost:3000/remoteEntry.js',
   },
 
+  // Shared Singleton Services
   shared: {
     '@angular/core': {
       singleton: true,
       strictVersion: true,
-      requiredVersion: '20.1.6',
+      requiredVersion: '21.1.0',
     },
     '@angular/common': {
       singleton: true,
       strictVersion: true,
-      requiredVersion: '20.1.6',
+      requiredVersion: '21.1.0',
     },
     '@angular/router': {
       singleton: true,
       strictVersion: true,
-      requiredVersion: '20.1.6',
+      requiredVersion: '21.1.0',
     },
     '@angular/forms': {
       singleton: true,
       strictVersion: true,
-      requiredVersion: '20.1.6',
+      requiredVersion: '21.1.0',
     },
+
     '@angular/common/http': {
       singleton: true,
       strictVersion: true,
-      requiredVersion: '20.1.6',
+      requiredVersion: '21.1.0',
     },
 
     // If you use Material/CDK, share them too
     '@angular/cdk': {
       singleton: true,
       strictVersion: true,
-      requiredVersion: '20.1.5',
+      requiredVersion: '21.1.0',
     },
     '@angular/material': {
       singleton: true,
       strictVersion: true,
-      requiredVersion: '20.1.5',
+      requiredVersion: '21.1.0',
     },
 
     // RxJS + tslib
@@ -62,19 +64,31 @@ module.exports = withModuleFederationPlugin({
     '@tmdjr/ngx-theme-picker': {
       singleton: true,
       strictVersion: true,
-      requiredVersion: '0.0.2',
+      requiredVersion: '21.0.3',
     },
 
     '@tmdjr/ngx-user-metadata': {
       singleton: true,
       strictVersion: true,
-      requiredVersion: '^0.0.11',
+      requiredVersion: '^21.0.4',
+    },
+
+    '@tmdjr/ngx-local-storage-client': {
+      singleton: true,
+      strictVersion: true,
+      requiredVersion: '^21.0.30',
     },
 
     '@tmdjr/ngx-navigational-list': {
       singleton: true,
       strictVersion: true,
-      requiredVersion: '0.0.12',
+      requiredVersion: '21.0.6',
+    },
+
+    '@tmdjr/ngx-editor-js2': {
+      singleton: true,
+      strictVersion: true,
+      requiredVersion: '21.0.3',
     },
   },
 });
