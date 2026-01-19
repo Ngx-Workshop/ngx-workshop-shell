@@ -40,7 +40,7 @@
     "@angular/build": "^21.1.0",
     "@angular/cli": "21.1.0",
     "@angular/compiler-cli": "21.1.0",
-    "@tmdjr/ngx-mfe-orchestrator-contracts": "^0.0.54",
+    "@tmdjr/ngx-mfe-orchestrator-contracts": "^0.0.47",
     "@types/jasmine": "~5.1.0",
     "jasmine-core": "~5.7.0",
     "karma": "~6.4.0",
